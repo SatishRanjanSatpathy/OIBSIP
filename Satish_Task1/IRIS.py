@@ -2,6 +2,8 @@
 
 # Import Python Libraries
 import pandas as pd  
+import matplotlib.pyplot as plt  # for graphs
+
 
 from sklearn.model_selection import train_test_split # dividing of data into training and testing data
 from sklearn.ensemble import RandomForestClassifier  # imports algorithm
@@ -62,3 +64,15 @@ print()
 print("Accuracy")
 print(acc)
 
+# scatter graph for better visualisation
+plt.scatter(
+    iris_data["SepalLengthCm"],    # x axis
+    iris_data["PetalLengthCm"]     # y axis
+)
+
+plt.xlabel("Sepal Length")
+plt.ylabel("Petal Length")
+
+plt.title("Sepal Length vs Petal Length")
+
+plt.show()
