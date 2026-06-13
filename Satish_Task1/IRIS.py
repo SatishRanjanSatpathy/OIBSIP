@@ -1,10 +1,11 @@
 # Iris Flower Classification Project
 
+# Import Python Libraries
 import pandas as pd  
 
-from sklearn.model_selection import train_test_split 
-from sklearn.ensemble import RandomForestClassifier  
-from sklearn.metrics import accuracy_score          
+from sklearn.model_selection import train_test_split # dividing of data into training and testing data
+from sklearn.ensemble import RandomForestClassifier  # imports algorithm
+from sklearn.metrics import accuracy_score           # for accuracy  percentage
 
 
 # loading dataset
@@ -20,7 +21,7 @@ print("Column Names")
 print(iris_data.columns)
 
 # separation of input and output Data
-X = iris_data.drop("Species", axis=1) 
+X = iris_data.drop("Species", axis=1)  # axis=1 means column operation
 y = iris_data["Species"]
 
 print()
@@ -33,6 +34,7 @@ print(y.head())
 
 # splitting dataset into training and testing set
 Xtrain, Xtest, ytrain, ytest = train_test_split(X, y, test_size=0.2, random_state=42)
+# random_state=42 make the data split same every time the progam runs
 print()
 print("Training Data Size :", Xtrain.shape)
 print("Testing Data Size :", Xtest.shape)
