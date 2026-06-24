@@ -43,7 +43,12 @@ score = model.score(X_test, y_test)
 print("\nModel Accuracy (R2 Score):", round(score, 2))
 
 # GRAPH
+plt.figure(figsize=(6,6))
 plt.scatter(y_test, y_pred)
+
+# PERFECT PREDICTION LINE
+plt.plot([y_test.min(),y_test.max()],
+         [y_test.min(),y_test.max()])
 
 plt.xlabel("Actual Price")
 plt.ylabel("Predicted Price")
