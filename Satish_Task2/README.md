@@ -4,7 +4,7 @@
 
 ### Introduction
 
-This project IS to predict product sales based on advertising expenditures on TV, Radio and Newspaper platforms. The Linear Regression model is used to analyze the relationship between advertising budgets and sales.
+This project aims to predict product sales based on advertising expenditures on TV, Radio and Newspaper platforms. The Linear Regression model is used to analyze the relationship between advertising budgets and sales.
 
 ### About the Dataset
 
