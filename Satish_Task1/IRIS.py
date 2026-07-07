@@ -11,7 +11,7 @@ from sklearn.metrics import accuracy_score           # for accuracy  percentage
 
 
 # loading dataset
-iris_data = pd.read_csv(r"C:\Users\satpa\internship\OIBSIP\Satish_Task1\Iris.csv")
+iris_data = pd.read_csv("Iris.csv")
 print("Dataset Loaded Successfully")
 print()
 
