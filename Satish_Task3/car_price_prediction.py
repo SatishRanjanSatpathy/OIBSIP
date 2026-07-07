@@ -7,8 +7,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score
 
 # Loading The Dataset
-data = pd.read_csv(r"C:\Users\satpa\internship\OIBSIP\Satish_Task3\car data.csv")
-
+data = pd.read_csv("car data.csv")
 print("")
 
 # Display first 5 rows

@@ -6,7 +6,7 @@
 
 This project aims to predict the selling price of used cars using Machine Learning. The model is trained on historical car data and estimates the selling price based on various features such as present price, kilometers driven, fuel type, transmission type, number of previous owners and car age.
 
-### Python module Used
+### Python modules Used
 
 * Pandas
 * Matplotlib
@@ -21,7 +21,7 @@ This project aims to predict the selling price of used cars using Machine Learni
 
 ### Features Used
 
-* Present Price
+* Present Pricegit 
 * Driven Kilometers
 * Fuel Type
 * Selling Type
@@ -40,7 +40,7 @@ This project aims to predict the selling price of used cars using Machine Learni
 7. Evaluated the model using the R² Score.
 8. Visualized the results using a scatter plot with the perfect prediction line.
 
-### Model Performence
+### Model Performance
 
 The Linear Regression model achieved an **R² Score of 0.85**, which indicates that the model explains approximately **85% of the variance in car selling prices**.
 
