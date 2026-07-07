@@ -21,7 +21,7 @@ This project aims to predict the selling price of used cars using Machine Learni
 
 ### Features Used
 
-* Present Pricegit 
+* Present Price
 * Driven Kilometers
 * Fuel Type
 * Selling Type
